@@ -1,0 +1,38 @@
+@import '../../common/colors.scss';
+
+.show_details{
+    padding:70px;
+}
+.show_box{
+    display:flex;
+
+    .left{
+        margin-right: 40px;
+
+        p{
+            margin-top: 10px;
+            text-align:justify;
+            font-size: 20px;
+        }
+
+        h1{
+            font-size: 2.4rem;
+            color: $font-secondary;
+        }
+    }
+
+    .right{
+        img{
+            width:300px;
+        }
+    }
+}
+
+.more_info{
+    margin-top:40px;
+    span{
+        margin-right: 50px;
+        color: $font-secondary;
+        font-size: 18px;
+    }
+}
